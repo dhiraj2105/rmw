@@ -901,7 +901,7 @@ div.demo img {
 /*----------------------------------------*/
 .tp-accordion .accordion-item {
   background-color: transparent;
-  border-radius: 25px;
+  /* border-radius: 25px; */
 }
 
 .tp-accordion .accordion-item:last-of-type {

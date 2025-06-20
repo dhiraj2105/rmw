@@ -13,13 +13,7 @@ interface ServiceProps {
 }
 
 const Service: React.FC<ServiceProps> = ({ data }) => {
-  // State to track the currently opened accordion item (default to index 0)
-  const [openIndex, setOpenIndex] = useState<number>(0);
-
-  // Function to toggle accordion items
-  const toggleAccordion = (index: number) => {
-    setOpenIndex((prevIndex) => (prevIndex === index ? -1 : index));
-  };
+ 
 
   return (
     <div className="tp-service__area fix tp-bg-class">
