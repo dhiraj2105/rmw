@@ -1,6 +1,6 @@
 "use client";
 import Accordion from "@/components/Accordian";
-import { useState } from "react";
+// import { useState } from "react";
 
 interface ServiceItem {
   title: string;
