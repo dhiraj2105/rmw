@@ -13,14 +13,6 @@ interface ServiceProps {
 }
 
 const Service: React.FC<ServiceProps> = ({ data }) => {
-  // State to track the currently opened accordion item (default to index 0)
-  const [openIndex, setOpenIndex] = useState<number>(0);
-
-  // Function to toggle accordion items
-  const toggleAccordion = (index: number) => {
-    setOpenIndex((prevIndex) => (prevIndex === index ? -1 : index));
-  };
-
   return (
     <div className="tp-service__area fix tp-bg-class">
       <div className="container">
@@ -47,27 +39,44 @@ const Service: React.FC<ServiceProps> = ({ data }) => {
         </div>
 
         {/* Accordion Section */}
-        <div className="row align-items-center" style={{backgroundColor: "#FFA122"}}>
+        <div
+          className="row align-items-center"
+          style={{ backgroundColor: "#FFA122" }}
+        >
           <div className="col-xl-6 gx-0">
             <Accordion data={data} />
           </div>
 
           {/* Image Section */}
           <div className="col-xl-6">
-            <div className="tp-services__thumb" >
-              <div className="" style={{ position: "relative", width: "60%", margin: "auto" }}>
-                <img src="/home-images/mobile-frame-img.png" alt="mobile" style={{  width: "100%"}} />
+            <div className="tp-services__thumb">
+              <div
+                className=""
+                style={{ position: "relative", width: "60%", margin: "auto" }}
+              >
+                <img
+                  src="/home-images/mobile-frame-img.png"
+                  alt="mobile"
+                  style={{ width: "100%" }}
+                />
                 <video
                   src="/test-images/test-video.mp4"
                   autoPlay
                   loop
                   muted
                   playsInline
-                  style={{ position: "absolute", top: "0", left: "5px",  width: "95%", zIndex: "-1", borderRadius: "50px",height: "100%", objectFit: "cover" }}
-             
+                  style={{
+                    position: "absolute",
+                    top: "0",
+                    left: "5px",
+                    width: "95%",
+                    zIndex: "-1",
+                    borderRadius: "50px",
+                    height: "100%",
+                    objectFit: "cover",
+                  }}
                 />
               </div>
-
             </div>
           </div>
         </div>
