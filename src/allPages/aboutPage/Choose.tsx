@@ -91,7 +91,7 @@ const Choose = () => {
                       data-width="130"
                       data-height="130"
                       data-bgcolor="#fff"
-                      data-fgcolor="#3d002e"
+                      data-fgcolor="#8A5A0D"
                       data-thickness=".07"
                       data-readonly="true"
                       disabled
@@ -114,7 +114,7 @@ const Choose = () => {
                       data-width="130"
                       data-height="130"
                       data-bgcolor="#fff"
-                      data-fgcolor="#3d002e"
+                      data-fgcolor="#8A5A0D"
                       data-thickness=".07"
                       data-readonly="true"
                       disabled
@@ -137,7 +137,7 @@ const Choose = () => {
                       data-width="130"
                       data-height="130"
                       data-bgcolor="#fff"
-                      data-fgcolor="#3d002e"
+                      data-fgcolor="#8A5A0D"
                       data-thickness=".07"
                       data-readonly="true"
                       disabled

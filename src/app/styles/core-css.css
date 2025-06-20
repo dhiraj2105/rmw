@@ -176,7 +176,7 @@ li,
   --tp-text-4: #7d7f82;
   --tp-text-5: #888a8c;
   --tp-text-6: #90969b;
-  --tp-theme-primary: #3d002e;
+  --tp-theme-primary: #8A5A0D;
   --tp-theme-rgba-primary: 249, 81, 29;
   --tp-black-premium: #222;
   --tp-theme-secondary: #821f40;
@@ -901,18 +901,17 @@ div.demo img {
 /*----------------------------------------*/
 .tp-accordion .accordion-item {
   background-color: transparent;
-  border: 1px solid;
-  border-radius: 0;
+  border-radius: 25px;
 }
 
 .tp-accordion .accordion-item:last-of-type {
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .tp-accordion .accordion-item:last-of-type .accordion-button.collapsed {
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .tp-accordion .accordion-button {
